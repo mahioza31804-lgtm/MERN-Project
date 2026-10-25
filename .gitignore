@@ -22,3 +22,9 @@ yarn-error.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Practical specific ignores
+Mern-Stack/Practical_09/server/recipe_uploads/*
+!Mern-Stack/Practical_09/server/recipe_uploads/.gitkeep
+Mern-Stack/Practical_09/server/uploads/*
+!Mern-Stack/Practical_09/server/uploads/.gitkeep
