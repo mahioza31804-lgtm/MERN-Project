@@ -1,0 +1,119 @@
+#root {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 50%, #f0fdf4 100%);
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.app h1 {
+  text-align: center;
+  color: #4338ca;
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 40px;
+  font-size: 1.05rem;
+}
+
+.api-section {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.08);
+  margin-bottom: 35px;
+  border: 1px solid #e0e7ff;
+}
+
+.api-section h2 {
+  font-size: 1.35rem;
+  color: #312e81;
+  margin-bottom: 22px;
+  border-bottom: 2px solid #ede9fe;
+  padding-bottom: 12px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15);
+}
+
+.team-card {
+  background: #fdf4ff;
+  border-left: 4px solid #9333ea;
+}
+
+.team-card h3 {
+  color: #7e22ce;
+}
+
+.product-card {
+  background: #f0fdfa;
+  border-left: 4px solid #0d9488;
+}
+
+.product-card h3 {
+  color: #0f766e;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.92rem;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.card p strong {
+  color: #1f2937;
+}
+
+.price {
+  color: #059669 !important;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  margin: 6px 0 !important;
+}
+
+.loading {
+  text-align: center;
+  color: #8b5cf6;
+  font-style: italic;
+  font-weight: 500;
+}
